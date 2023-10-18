@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil img{
+    width: 140px;
+    height: 140px;
+    border-radius: 8px;
+}
+
+.perfil span{
+    color: #515151;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.perfil span:hover{
+    color: white;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin: 10px;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.perfil img:hover{
+    color: rgb(245, 242, 242);
+    border: 2px solid rgb(245, 242, 242);
+    border-radius: 8px;
+}
+
+.botao:hover{
+    color: rgb(245, 242, 242);
+    border: 1px solid rgb(245, 242, 242);
+}
+
+.div__botao{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.botao{
+    border: 1px solid #515151;
+    background-color: #141414;
+    color: #515151;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    padding:  12px 35px;
+    font-weight: 600;
+}
